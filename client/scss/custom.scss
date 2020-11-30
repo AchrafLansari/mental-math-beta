@@ -1,0 +1,12 @@
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+$theme-colors: (
+  'primary': #f00,
+  'secondary': lightsalmon,
+  'info': teal,
+  'team': #2eb1ff,
+);
+
+/* import bootstrap to set changes */
+@import '~bootstrap/scss/bootstrap';

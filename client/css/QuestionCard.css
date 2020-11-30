@@ -1,0 +1,43 @@
+.card {
+  display: inline-block;
+  width: 100%;
+  height: 24rem;
+  border: 1px solid #666;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  -khtml-border-radius: 0.3em;
+  border-radius: 0.3em;
+  padding: 0.25em;
+  margin: 0 0.5em 0.5em 0;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: normal;
+  font-family: Arial, sans-serif;
+  position: relative;
+  background-color: #fff;
+  -moz-box-shadow: 0.2em 0.2em 0.5em #333;
+  -webkit-box-shadow: 0.2em 0.2em 0.5em #333;
+  box-shadow: 0.2em 0.2em 0.5em #333;
+}
+.answer-img-card {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  height: 50px;
+}
+.card.hearts {
+  color: #f00 !important;
+}
+
+.card .rank,
+.card .suit {
+  display: block;
+  line-height: 1;
+  text-align: left;
+  font-size: 2rem;
+}
+.card .answer {
+  display: block;
+  line-height: 1;
+  text-align: right;
+}

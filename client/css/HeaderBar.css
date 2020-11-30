@@ -1,0 +1,18 @@
+.header_bar {
+  background: linear-gradient(to top right, #060707, #082333);
+  border-bottom: 1px solid #3c4659;
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.header_bar img {
+  height: 4.5rem;
+}
+.header_bar .header_title {
+  color: #ffffff;
+  font-weight: bold;
+  height: 100%;
+  margin: auto 0.75rem;
+  font-size: 2rem;
+  font-family: monospace;
+}

@@ -1,0 +1,27 @@
+.question_answer_box {
+  font-size: 25px;
+  padding: 1rem 0.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.question_answer_box label {
+  margin-right: 5px;
+}
+
+.question_display {
+  border-bottom: 1px solid #ccc;
+  font-size: 40px;
+}
+
+.question_display span {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.question_display_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

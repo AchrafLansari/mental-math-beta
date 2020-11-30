@@ -1,20 +1,20 @@
 ## Description
 
+Demo : https://mental-math-beta.herokuapp.com/
+
 Beta Version of Multiplayer Mental Math Game :
 
 you join by default a team that has a target (defined by the server) to reach :
-- each correct answer : your score and team score increment by 1
-- wrong answer : reset your best streak score 
-- target reached : you receive a congratulation message and scores are resetted 
 
+- each correct answer : your score and team score increment by 1
+- wrong answer : reset your best streak score
+- target reached : you receive a congratulation message and scores are resetted
 
 - Todo :
   - Add a toggle to choose Levels difficulty
-  - Add a timer  that changes with the level  (normal:30s,hard:15s)
-  - Add a Team Target timer 
+  - Add a timer that changes with the level (normal:30s,hard:15s)
+  - Add a Team Target timer
   - Add a collaborative Question (example : 3 members of team need to answers to questions that will generate for one player a question filled by the answers of the team members :) )
-  - UI : Question/Answer Interface Will be a card (as a poker card)      
-
 
 ### ENVIRONMENT
 
@@ -27,7 +27,7 @@ I use NodeJS running express for our backend with a React app for the frontend.
   `cd /path/to/project npm install`
 - Start server using the built in script - this will ensure webpack builds the React app
   `npm start`
-- Visit http://localhost:4444 in a browser to see the application
+- Visit http://localhost:3000 in a browser to see the application
 
 **Running the "dev" script will start a webpack build process which will compile all the React components and CSS into a single bundle file. It will also start a nodemon instance of the server which means it will automatically restart and rebuild when you make a change to a Javascript file.**
 
@@ -55,4 +55,3 @@ The client side app is a React app, with the root component being App.js. In gen
 #### Backend Server
 
 The server is an Express based RESTful API. There is a route file which defines all the endpoints and then passes information to modules in /server which carry out the application logic. It also serves the static files for the frontend.
-

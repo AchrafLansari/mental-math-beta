@@ -10,12 +10,6 @@ you join by default a team that has a target (defined by the server) to reach :
 - wrong answer : reset your best streak score
 - target reached : you receive a congratulation message and scores are resetted
 
-- Todo :
-  - Add a toggle to choose Levels difficulty
-  - Add a timer that changes with the level (normal:30s,hard:15s)
-  - Add a Team Target timer
-  - Add a collaborative Question (example : 3 members of team need to answers to questions that will generate for one player a question filled by the answers of the team members :) )
-
 ### ENVIRONMENT
 
 I use NodeJS running express for our backend with a React app for the frontend.
@@ -55,3 +49,11 @@ The client side app is a React app, with the root component being App.js. In gen
 #### Backend Server
 
 The server is an Express based RESTful API. There is a route file which defines all the endpoints and then passes information to modules in /server which carry out the application logic. It also serves the static files for the frontend.
+
+
+
+### TODO
+  - Add a toggle to choose Levels difficulty
+  - Add a timer that changes with the level (normal:30s,hard:15s)
+  - Add a Team Target timer
+  - Add a collaborative Question (example : 3 members of team need to answers to questions that will generate for one player a question filled by the answers of the team members :) )
